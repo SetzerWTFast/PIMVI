@@ -1,0 +1,11 @@
+C:\Projetos\PIMVI\PIMVI\bin\Debug\PIMVI.exe.config
+C:\Projetos\PIMVI\PIMVI\bin\Debug\PIMVI.exe
+C:\Projetos\PIMVI\PIMVI\bin\Debug\PIMVI.pdb
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.csprojAssemblyReference.cache
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmLogin.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmMenu.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.Properties.Resources.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.csproj.GenerateResource.cache
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.csproj.CoreCompileInputs.cache
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.exe
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.pdb
