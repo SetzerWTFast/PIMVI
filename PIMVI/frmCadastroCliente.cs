@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace PIMVI
 {
-    public partial class frmAjuda : Form
+    public partial class frmCadastroCliente : Form
     {
-        public frmAjuda()
+        public frmCadastroCliente()
         {
             InitializeComponent();
         }
 
-        private void frmAjuda_Load(object sender, EventArgs e)
+        private void frmCadastroCliente_Load(object sender, EventArgs e)
         {
 
         }

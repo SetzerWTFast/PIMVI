@@ -74,6 +74,7 @@
             // 
             // btnEntrar
             // 
+            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.Location = new System.Drawing.Point(208, 93);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(88, 27);
@@ -84,6 +85,7 @@
             // 
             // btnSair
             // 
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.Location = new System.Drawing.Point(310, 93);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(88, 27);

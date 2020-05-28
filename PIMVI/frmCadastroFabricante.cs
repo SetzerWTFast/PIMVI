@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PIMVI
 {
-    public partial class frmAjuda : Form
+    public partial class frmCadastroFabricante : Form
     {
-        public frmAjuda()
+        public frmCadastroFabricante()
         {
             InitializeComponent();
-        }
-
-        private void frmAjuda_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

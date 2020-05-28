@@ -26,5 +26,35 @@ namespace PIMVI
         {
             Application.Exit();
         }
+
+        private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAjuda Ajuda = new frmAjuda();
+            Ajuda.Show();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroCliente Clientes = new frmCadastroCliente();
+            Clientes.Show();
+        }
+
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroProduto Produtos = new frmCadastroProduto();
+            Produtos.Show();
+        }
+
+        private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroCategoria Categoria = new frmCadastroCategoria();
+            Categoria.Show();
+        }
+
+        private void fabricanteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroFabricante Fabricante = new frmCadastroFabricante();
+            Fabricante.Show();
+        }
     }
 }
