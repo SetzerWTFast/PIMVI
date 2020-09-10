@@ -56,5 +56,17 @@ namespace PIMVI
             frmCadastroFabricante Fabricante = new frmCadastroFabricante();
             Fabricante.Show();
         }
+
+        private void clientesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaCliente Clientes = new frmConsultaCliente();
+            Clientes.Show();
+        }
+
+        private void produtosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaProduto Produtos = new frmConsultaProduto();
+            Produtos.Show();
+        }
     }
 }

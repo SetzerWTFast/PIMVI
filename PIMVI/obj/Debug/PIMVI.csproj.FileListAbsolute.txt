@@ -14,3 +14,5 @@ C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmCadastroCliente.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmCadastroProduto.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmCadastroCategoria.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmCadastroFabricante.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmConsultaCliente.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmConsultaProduto.resources

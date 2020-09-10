@@ -48,11 +48,11 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbFotoJogo = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoJogo)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -220,13 +220,15 @@
             this.label10.TabIndex = 18;
             this.label10.Text = "Data Cadastro";
             // 
-            // pictureBox1
+            // pbFotoJogo
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(657, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
+            this.pbFotoJogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbFotoJogo.Location = new System.Drawing.Point(657, 25);
+            this.pbFotoJogo.Name = "pbFotoJogo";
+            this.pbFotoJogo.Size = new System.Drawing.Size(127, 127);
+            this.pbFotoJogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbFotoJogo.TabIndex = 20;
+            this.pbFotoJogo.TabStop = false;
             // 
             // button1
             // 
@@ -267,7 +269,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbFotoJogo);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -289,12 +291,14 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(812, 236);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(812, 236);
             this.Name = "frmCadastroProduto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Produtos";
             this.Load += new System.EventHandler(this.frmCadastroProduto_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoJogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,7 +326,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbFotoJogo;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

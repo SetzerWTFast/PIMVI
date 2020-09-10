@@ -55,6 +55,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
@@ -65,8 +67,6 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -326,6 +326,22 @@
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(331, 53);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(26, 13);
+            this.label17.TabIndex = 24;
+            this.label17.Text = "Obs";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(331, 69);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(230, 20);
+            this.textBox15.TabIndex = 25;
+            // 
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(10, 69);
@@ -410,22 +426,6 @@
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(331, 53);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(26, 13);
-            this.label17.TabIndex = 24;
-            this.label17.Text = "Obs";
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(331, 69);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(230, 20);
-            this.textBox15.TabIndex = 25;
-            // 
             // frmCadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -437,7 +437,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(612, 422);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(612, 422);
             this.Name = "frmCadastroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Clientes";
