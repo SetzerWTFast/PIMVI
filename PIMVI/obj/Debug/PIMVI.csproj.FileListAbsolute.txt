@@ -16,3 +16,5 @@ C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmCadastroCategoria.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmCadastroFabricante.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmConsultaCliente.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmConsultaProduto.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmNovoUsuario.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmMudarSenha.resources

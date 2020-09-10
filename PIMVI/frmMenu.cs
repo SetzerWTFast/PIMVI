@@ -68,5 +68,17 @@ namespace PIMVI
             frmConsultaProduto Produtos = new frmConsultaProduto();
             Produtos.Show();
         }
+
+        private void criarUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNovoUsuario Usuario = new frmNovoUsuario();
+            Usuario.Show();
+        }
+
+        private void mudarSenhaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMudarSenha Alterar = new frmMudarSenha();
+            Alterar.Show();
+        }
     }
 }
