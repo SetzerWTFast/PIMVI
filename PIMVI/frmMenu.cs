@@ -19,7 +19,8 @@ namespace PIMVI
 
         private void frmMenu_Load(object sender, EventArgs e)
         {
-
+            tstData.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            tstHora.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
         private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
@@ -79,6 +80,17 @@ namespace PIMVI
         {
             frmMudarSenha Alterar = new frmMudarSenha();
             Alterar.Show();
+        }
+
+        private void vendasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTelaDeVendas Vendas = new frmTelaDeVendas();
+            Vendas.Show();
+        }
+
+        private void TimerAtualiazr_Tick(object sender, EventArgs e)
+        {
+            tstHora.Text = DateTime.Now.ToString("HH:mm:ss");
         }
     }
 }

@@ -69,6 +69,7 @@
             // 
             this.txtSenha.Location = new System.Drawing.Point(208, 60);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '•';
             this.txtSenha.Size = new System.Drawing.Size(190, 20);
             this.txtSenha.TabIndex = 3;
             // 
@@ -92,6 +93,7 @@
             this.btnSair.TabIndex = 5;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // pictureBox1
             // 
@@ -116,7 +118,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(428, 174);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(428, 174);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autenticação do Sistema";

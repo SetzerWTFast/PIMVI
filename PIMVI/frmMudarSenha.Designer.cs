@@ -116,6 +116,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(228, 205);
             this.Name = "frmMudarSenha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mudar Senha";
             this.ResumeLayout(false);
             this.PerformLayout();

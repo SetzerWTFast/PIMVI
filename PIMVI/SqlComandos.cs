@@ -9,16 +9,16 @@ using System.Threading.Tasks;
 
 namespace PIMVI
 {
-    class Cadastro
+    class CadastroClientes
     {
-        class Clientes
-        {
+        //class Clientes
+        //{
 
             Conexao conexao = new Conexao();
             SqlCommand cmd = new SqlCommand();
             public string mensagem = "";
 
-            public Clientes(String nome,
+            public CadastroClientes(String nome,
                             String cpf,
                             String rg,
                             String logradouro,
@@ -66,88 +66,88 @@ namespace PIMVI
                     this.mensagem = e.Message;
                 }
             }
-        }
+        //}
 
-        class Produtos
-        {
-            Conexao conexao = new Conexao();
-            SqlCommand cmd = new SqlCommand();
-            public string mensagem = "";
+        //class Produtos
+        //{
+        //    Conexao conexao = new Conexao();
+        //    SqlCommand cmd = new SqlCommand();
+        //    public string mensagem = "";
 
-            public Produtos(String barra,
-                            String nome,
-                            String categoria,
-                            String fabricante,
-                            String plataforma,
-                            double quantidade,
-                            String garantia,
-                            String obs
-                            )
+        //    public Produtos(String barra,
+        //                    String nome,
+        //                    String categoria,
+        //                    String fabricante,
+        //                    String plataforma,
+        //                    double quantidade,
+        //                    String garantia,
+        //                    String obs
+        //                    )
 
-            {
-                cmd.CommandText = "INSERT INTO tbl_Produtos (data, barra, nome, categoria, fabricante, plataforma, quantidade, garantia, obs)" +
-                                  "VALUES(@data, @barra, @nome, @categoria, @fabricante, @plataforma, @quantidade, @garantia, @obs)";
+        //    {
+        //        cmd.CommandText = "INSERT INTO tbl_Produtos (data, barra, nome, categoria, fabricante, plataforma, quantidade, garantia, obs)" +
+        //                          "VALUES(@data, @barra, @nome, @categoria, @fabricante, @plataforma, @quantidade, @garantia, @obs)";
 
-                cmd.Parameters.AddWithValue("@barra", barra);
-                cmd.Parameters.AddWithValue("@data", DateTime.Now);
-                cmd.Parameters.AddWithValue("@nome", nome);
-                cmd.Parameters.AddWithValue("@categoria", categoria);
-                cmd.Parameters.AddWithValue("@fabricante", fabricante);
-                cmd.Parameters.AddWithValue("@plataforma", plataforma);
-                cmd.Parameters.AddWithValue("@quantidade", quantidade);
-                cmd.Parameters.AddWithValue("@garantia", garantia);
-                cmd.Parameters.AddWithValue("@obs", obs);
+        //        cmd.Parameters.AddWithValue("@barra", barra);
+        //        cmd.Parameters.AddWithValue("@data", DateTime.Now);
+        //        cmd.Parameters.AddWithValue("@nome", nome);
+        //        cmd.Parameters.AddWithValue("@categoria", categoria);
+        //        cmd.Parameters.AddWithValue("@fabricante", fabricante);
+        //        cmd.Parameters.AddWithValue("@plataforma", plataforma);
+        //        cmd.Parameters.AddWithValue("@quantidade", quantidade);
+        //        cmd.Parameters.AddWithValue("@garantia", garantia);
+        //        cmd.Parameters.AddWithValue("@obs", obs);
 
-                try
-                {
-                    cmd.Connection = conexao.conectar();
-                    cmd.ExecuteNonQuery();
-                    conexao.desconectar();
-                    this.mensagem = "Produto cadastrado com sucesso!";
-                }
-                catch (SqlException e)
-                {
-                    this.mensagem = e.Message;
-                }
+        //        try
+        //        {
+        //            cmd.Connection = conexao.conectar();
+        //            cmd.ExecuteNonQuery();
+        //            conexao.desconectar();
+        //            this.mensagem = "Produto cadastrado com sucesso!";
+        //        }
+        //        catch (SqlException e)
+        //        {
+        //            this.mensagem = e.Message;
+        //        }
 
-            }
-        }
+        //    }
+        //}
 
-        class Usuario
-        {
-            Conexao conexao = new Conexao();
-            SqlCommand cmd = new SqlCommand();
-            public string mensagem = "";
+        //class Usuario
+        //{
+        //    Conexao conexao = new Conexao();
+        //    SqlCommand cmd = new SqlCommand();
+        //    public string mensagem = "";
 
-            public Usuario()
-            {
+        //    public Usuario()
+        //    {
 
-            }
-        }
+        //    }
+        //}
 
-        class Fabricante
-        {
-            Conexao conexao = new Conexao();
-            SqlCommand cmd = new SqlCommand();
-            public string mensagem = "";
+        //class Fabricante
+        //{
+        //    Conexao conexao = new Conexao();
+        //    SqlCommand cmd = new SqlCommand();
+        //    public string mensagem = "";
 
-            public Fabricante()
-            {
+        //    public Fabricante()
+        //    {
 
-            }
-        }
+        //    }
+        //}
 
-        class Categoria
-        {
-            Conexao conexao = new Conexao();
-            SqlCommand cmd = new SqlCommand();
-            public string mensagem = "";
+        //class Categoria
+        //{
+        //    Conexao conexao = new Conexao();
+        //    SqlCommand cmd = new SqlCommand();
+        //    public string mensagem = "";
 
-            public Categoria()
-            {
+        //    public Categoria()
+        //    {
 
-            }
-        }
+        //    }
+        //}
     
     }
 

@@ -18,3 +18,4 @@ C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmConsultaCliente.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmConsultaProduto.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmNovoUsuario.resources
 C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmMudarSenha.resources
+C:\Projetos\PIMVI\PIMVI\obj\Debug\PIMVI.frmTelaDeVendas.resources
